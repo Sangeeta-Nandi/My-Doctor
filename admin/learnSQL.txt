@@ -1,0 +1,6 @@
+You'd have to use
+
+ALTER TABLE fruit ADD UNIQUE (name) 
+and then use
+
+INSERT IGNORE INTO fruit (name) VALUES ('mango')

@@ -1,0 +1,260 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+/* Sidebar CSS */
+.sidebar-area {
+	width: 145px;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	z-index: 10;
+}  
+
+.sidebar-area ul li a {
+	font-size: 15px;
+	font-weight: 500;
+}  
+
+.fixed {
+    position: fixed;
+	top: 0;
+}
+
+main {
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+}
+
+.wapper {
+	width: 690px;
+	margin: 50px auto;
+}
+    
+}
+
+
+
+
+
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+/* Header Top CSS */
+.header-top-area img {
+	margin-top: 11px;
+} 
+
+/* Header Menu CSS */
+.header-menu-area ul li a {
+    padding: 10px 20px;
+    font-size: 15px;
+}
+
+/* Featured Item CSS */
+.featured-item-area {
+	width: 100%;
+	margin: 25px auto;
+}
+
+/* Result Item CSS */
+.sub-page-result-area {
+	width: 100%;
+	margin: 25px auto;
+}
+
+/* Sidebar CSS */
+.sidebar-area {
+	width: 100%;
+	height: auto;
+	position: absolute;
+	right: inherit;
+	top: 100%;
+} 
+
+.sidebar-area ul li a {
+	padding: 5px 10px;
+}
+
+main {
+	width: 100%;
+	position: relative;
+	overflow: inherit;
+}
+
+.wapper {
+	width: 100%;
+}
+
+.wapper-bottom-margin {
+	margin: 50px auto 300px;
+}
+
+.fixed {
+    position: absolute;
+	top: 100%;
+}
+
+/* Health Tips Area CSS */
+.health-tips-area time {
+    padding-top: 20px;
+}
+    
+}
+
+
+
+
+
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+/* Header Top CSS */
+.header-top-area h2 {
+	text-align: left;
+} 
+
+/* Header Menu CSS */
+#menu {
+	display:none;
+}
+	
+.slicknav_menu {
+	display:block;
+}
+
+/* Find Your Doctor CSS */
+.find-your-doctor {
+	width: 80%;
+	margin: 25px auto;
+}
+
+/* Featured Item CSS */
+.featured-item-area {
+	width: 100%;
+	margin: 25px auto;
+}
+
+.empty {
+	display: none;
+}
+
+/* Result Item CSS */
+.sub-page-result-area {
+	width: 100%;
+	margin: 25px auto;
+}
+
+main {
+	width: 100%;
+	margin: 25px auto;
+}
+
+.result-single-item-box {
+	width: 100%;
+	float: left;
+} 
+
+/* Result Blood Bank CSS */
+.blood-bank-result-single-item-box {
+	width: 100%;
+	float: left;
+} 
+
+/* Result Ambulance CSS */
+.ambulance-result-single-item-box {
+	width: 100%;
+	float: left;
+}  
+
+/* Doctors Department CSS */
+.doctor-profile {
+	width: 100%;
+	float: left;
+}
+
+/* Sidebar CSS */
+.sidebar-area {
+	width: 100%;
+	height: auto;
+	position: absolute;
+	right: inherit;
+	top: 100%;
+} 
+
+.sidebar-area ul li a {
+	padding: 5px 10px;
+}
+
+main {
+	width: 100%;
+	position: relative;
+	overflow: inherit;
+}
+
+.wapper {
+	width: 100%;
+}
+
+.wapper-bottom-margin {
+	margin: 50px auto 300px;
+}
+
+.fixed {
+    position: absolute;
+	top: 100%;
+}
+
+/* Health Tips Area CSS */
+.health-tips-area time {
+    padding-top: 14px;
+}
+
+.blog-content {
+	margin-top:25px;
+}
+
+}
+
+
+
+
+
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+/* Header Top CSS */
+.header-top-area img {
+	width: 50%;
+} 
+
+.header-top-area h2 {
+	text-align: left;
+}
+
+/* Find Your Doctor CSS */
+.find-your-doctor {
+	width: 350px;
+	margin: 25px auto;
+}
+
+/* Featured Item CSS */
+.featured-item-area {
+	width: 100%;
+	margin: 25px auto;
+}
+
+/* Result Item CSS */
+.sub-page-result-area {
+	width: 100%;
+	margin: 25px auto;
+}
+
+.result-single-item-box {
+	width: 50%;
+	float: left;
+}
+
+/* Doctors Department CSS */
+.doctor-profile {
+	width: 50%;
+	float: left;
+}
+
+}

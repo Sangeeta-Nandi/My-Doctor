@@ -1,0 +1,10 @@
+@charset "utf-8";
+/* CSS Document */
+
+.navbar-default {
+/*background-color: #3386ff;*/
+background-color: #297233;
+border-color: #e7e7e7;
+}
+.navbar-default .navbar-nav > li > a {
+	color:#fff;}

@@ -1,0 +1,870 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+html,
+body { height: 100% }
+body {
+	font-family: 'Roboto', sans-serif; 
+	font-size: 16px;
+}
+a:hover { text-decoration: none }
+
+/* Remove Chrome Input Field's Unwanted Yellow Background Color */
+input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+}
+
+/* Header Top CSS */
+.header-top-area {
+	padding: 15px 0px;
+}
+
+.header-top-area h2 {
+	text-align: center;
+	margin: 8px 0 0 0;
+}
+
+.header-top-area button {
+	float: right;
+	margin-top: 10px;
+	background: #FF0006;
+	color: #fff;
+	border: none;
+	padding: 5px 10px;
+	font-weight: 700;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+     -o-border-radius: 5px;
+        border-radius: 5px;
+	/* behavior: url(./border-radius.htc); For IE, download and customize htc file http://curved-corner.googlecode.com/files/border-radius.htc */
+	-webkit-box-shadow: 0px 1px 1px 0px #000;
+   -moz-box-shadow: 0px 1px 1px 0px #000;
+        box-shadow: 0px 1px 1px 0px #000;
+
+	filter:progid:DXImageTransform.Microsoft.dropshadow(
+		OffX=0px, OffY=1px, Color='#000', Positive='false'
+	); /* IE 5.5 */ 
+	border-collapse: separate; /* Required by IE 9 */
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	transition: all 0.2s;
+}
+
+.header-top-area button:hover {
+	background: #e80207;
+}
+
+/* Header Menu CSS */
+.header-menu-area {
+	background: #01A0C7;
+}
+
+.header-menu-area ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.header-menu-area ul li {
+	float: left;
+}
+
+.header-menu-area ul li a {
+	color: #fff;
+	padding: 10px 25px;
+	display: block;
+	text-transform: uppercase;
+	font-size: 16px;
+	border-left: 1px solid #03b3de;
+	border-right: 1px solid #018eb1;
+	-webkit-transition: background 0.2s;
+	-moz-transition: background 0.2s;
+	-o-transition: background 0.2s;
+	transition: background 0.2s;
+}
+
+.header-menu-area ul li a:hover {
+	background: #028fb1; /* Old browsers */
+}
+
+.header-menu-area ul li:first-child a {
+	border-left: none;
+}
+
+.header-menu-area ul li:last-child a {
+	border-right: none;
+}
+
+.slicknav_menu {
+	display:none;
+}
+
+/* Find Your Doctor CSS */
+.find-your-doctor {
+	width: 400px;
+	margin: 25px auto;
+	text-align: center;
+}
+
+.find-your-doctor h2 {
+	font-weight: 400;
+	color: #0A51A1;
+}
+
+.find-your-doctor-form {
+	background: #0A51A1;
+	padding: 25px;
+	color: #fff;
+	border-radius: 15px;
+	font-size: 16px;
+	overflow: hidden;
+}
+
+.find-your-doctor-form button {
+	background: #F8BC42;
+	padding: 5px 10px;
+	color: #000;
+	border-radius: 5px;
+	font-size: 16px;
+	border: none;
+	float: right;
+	-webkit-transition: background 0.2s;
+	-moz-transition: background 0.2s;
+	-o-transition: background 0.2s;
+	transition: background 0.2s;
+}
+
+.find-your-doctor-form button:hover {
+	background: #dba612;
+}
+
+.form-group > label {
+	font-weight: 500;
+}
+
+/* Featured Item CSS */
+.featured-item-area {
+	width: 100%;
+	margin: 25px auto;
+}
+
+.featured-single-item {
+	padding: 40px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+.featured-single-item  img {
+    height: 130px;
+
+}
+
+.featured-single-item  h3 {
+	color: #fff;
+	font-weight: 500;
+	margin: 20px 0 0;
+	text-shadow: 0px 0px 2px #000;
+}
+
+.doctor {
+	background: #0A51A1;
+}
+
+.diagnostic {
+	background: #139034;
+}
+
+.hospital {
+	background: #cae9ed;
+}
+
+.bdgovt {
+	background: #ABDA4E;
+}
+
+.blood-bank {
+	background: #BFBFBF;
+}
+
+.ambulance {
+	background: #FE0000;
+}
+
+.folder {
+	background: #FFDF58;
+}
+
+.foreign-hospital {
+	background: #8D0687;
+}
+
+/* Footer CSS */
+footer {
+	background: #01A0C7;
+	padding: 25px 0;
+	color: #fff;
+	font-size: 16px;
+	overflow: hidden;
+	width: 100%;
+	position: relative;
+	z-index: 100;
+}
+
+/* Sub Page Heading Area CSS */
+.sub-page-heading-area {
+	width: 300px;
+	margin: 25px auto;
+}
+
+.doctor-custom-select {
+	width: 100%;
+	height: 30px;
+	color: #fff;
+	background-color: #01A0C7;
+	border: none;
+	text-align: center;
+}
+
+.doctor-custom-select option[selected] {
+	color: #fff;
+}
+
+.sub-page-result-area {
+	width: 100%;
+	margin: 50px auto;
+	overflow: hidden;
+}
+
+main {
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+}
+
+.wapper {
+	width: 790px;
+	margin: 50px auto;
+}
+
+p.doctor-result-heading {
+	color: #084C93;
+	text-align: center;
+	margin-bottom: 50px;
+	margin: 10px 0 50px;
+}
+
+p.doctor-result-heading span {
+	background: #8BD4E5;
+	padding: 8px 35px;
+	font-weight: 500;
+	border: 2px solid #999
+}
+
+.result-single-item-box {
+	width: 33.3333%;
+	float: left;
+}
+
+.result-single-item {
+	border: 2px solid #999;
+	overflow: hidden;
+	margin: 10px;
+}
+
+.result-single-item img {
+	float: left;
+	width: 40%;
+	height: 100%;
+}
+
+.result-single-item-right {
+	float: left;
+	width: 60%;
+}
+
+.result-single-item h4 {
+	margin-top: 15px;
+	text-align: center;
+	color: #99343C;
+	font-weight: 500;
+}
+
+/* Result Diagnostic CSS */
+.diagnostic-result-single-item {
+	border: 2px solid #999;
+	overflow: hidden;
+	margin: 10px;
+	background: #158C30;
+}
+
+.diagnostic-result-single-item h4 {
+	margin-top: 15px;
+	text-align: center;
+	color: #fff;
+	font-weight: 500;
+}
+
+.diagnostic-custom-select {
+	width: 100%;
+	height: 30px;
+	color: #fff;
+	background-color: #A1C07D;
+	border: none;
+	text-align: center;
+}
+
+.diagnostic-custom-select option[selected] {
+	color: #fff;
+}
+
+p.diagnostic-result-heading {
+	color: #139034;
+	text-align: center;
+	margin: 10px 0 50px;
+}
+
+p.diagnostic-result-heading span {
+	background: #DEDEDE;
+	padding: 8px 35px;
+	font-weight: 500;
+	border: 2px solid #999
+}
+
+/* Result Hospital CSS */
+.hospital-custom-select {
+	width: 100%;
+	height: 30px;
+	color: #fff;
+	background-color: #8BD4E5;
+	border: none;
+	text-align: center;
+}
+
+.hospital-custom-select option[selected] {
+	color: #fff;
+}
+
+p.hospital-result-heading {
+	color: #139034;
+	text-align: center;
+	margin: 10px 0 50px;
+}
+
+p.hospital-result-heading span {
+	background: #DEDEDE;
+	padding: 8px 35px;
+	font-weight: 500;
+	border: 2px solid #999
+}
+
+.hospital-result-single-item {
+	border: 2px solid #999;
+	overflow: hidden;
+	margin: 10px;
+	background: #029293;
+}
+
+.hospital-result-single-item h4 {
+	margin-top: 15px;
+	text-align: center;
+	color: #fff;
+	font-weight: 500;
+}
+
+/* Result Govt. Hospital CSS */
+.govt-hospital-result-single-item {
+	border: 2px solid #999;
+	overflow: hidden;
+	margin: 10px;
+	background: #B1D750;
+}
+
+.govt-hospital-result-single-item h4 {
+	margin-top: 15px;
+	text-align: center;
+	color: #0B500D;
+	font-weight: 500;
+}
+
+/* Result Blood Bank CSS */
+.blood-bank-custom-select {
+	width: 100%;
+	height: 30px;
+	color: #fff;
+	background-color: #01A0C7;
+	border: none;
+	text-align: center;
+}
+
+.blood-bank-custom-select option[selected] {
+	color: #fff;
+}
+
+p.blood-bank-result-heading {
+	color: #2C6EBA;
+	text-align: center;
+	margin: 10px 0 50px;
+}
+
+p.blood-bank-result-heading span {
+	background: #8BD4E5;
+	padding: 8px 35px;
+	font-weight: 500;
+	border: 2px solid #999
+}
+
+.blood-bank-result-single-item-box {
+	width: 50%;
+	float: left;
+}
+
+.blood-bank-result-single-item {
+	border: 2px solid #D60000;
+	border-radius: 15px;
+	overflow: hidden;
+	margin: 10px;
+	background: #fff;
+	padding: 10px;
+}
+
+.blood-bank-result-single-item h4 {
+	margin-top: 15px;
+	text-align: center;
+	color: #D60000;
+	font-weight: 500;
+}
+
+.blood-bank-result-single-item p {
+	color: #D60000;
+}
+
+/* Result Ambulance CSS */
+.ambulance-custom-select {
+	width: 100%;
+	height: 30px;
+	color: #fff;
+	background-color: #8A0A07;
+	border: none;
+	text-align: center;
+}
+
+.ambulance-custom-select option[selected] {
+	color: #fff;
+}
+
+p.ambulance-result-heading {
+	color: #fff;
+	text-align: center;
+	margin: 10px 0 50px;
+}
+
+p.ambulance-result-heading span {
+	background: #5B3E1C;
+	padding: 8px 35px;
+	font-weight: 500;
+	border: 2px solid #999
+}
+
+.ambulance-result-single-item-box {
+	width: 33.3333%;
+	float: left;
+}
+
+.ambulance-result-single-item {
+	border: 2px solid #5655A3;
+	border-radius: 15px;
+	overflow: hidden;
+	margin: 10px;
+	background: #fff;
+	padding: 10px;
+}
+
+.ambulance-result-single-item h4 {
+	margin-top: 15px;
+	text-align: center;
+	color: #E2201E;
+	font-weight: 500;
+}
+
+.ambulance-result-single-item p {
+	color: #E2201E;
+}
+
+/* Result Test Paper CSS */
+table.table-test-paper {
+	border: 1px solid #000;
+}
+
+.table-test-paper thead tr {
+	background: #688186;
+	color: #fff;
+}
+
+.table-test-paper tbody tr {
+	background: #FFDF58;
+	color: #333;
+}
+
+.table-test-paper td {
+	border: 1px solid #000;
+}
+
+/* Result Foreign Hospital */
+.foreign-hospital-list {
+	border: 2px solid #69B45F;
+	width: 100%;
+	text-align: center;
+	border-radius: 25px;
+	overflow: hidden;
+}
+
+.foreign-hospital-list-heading h2 {
+	color: #9B0001;
+	margin: 25px 0;
+}
+
+.foreign-hospital-list-item h3 {
+	background: #909BC9;
+	color: #000;
+	padding: 25px 0;
+	margin: 5px 0;
+}
+
+/* Doctors Department CSS */
+.doctor-profile {
+	width: 33.3333%;
+	float: left;
+}
+
+.doctor-profile-inner {
+	border: 2px solid #0A51A1;
+	margin: 10px;
+}
+
+.doctor-profile-heading {
+	width: 100%;
+	background: #0A51A1;
+	color: #fff;
+	text-align: center;
+	padding: 5px 0;
+}
+
+.doctor-profile-heading h4 {
+	margin: 0;
+	padding: 0;
+}
+
+.doctor-profile-details {
+	width: 100%;
+	margin: 27px 5px;
+	overflow: hidden;
+}
+
+.doctor-profile-details-left {
+	width: 30%;
+	float: left;
+}
+
+.doctor-profile-details-right {
+	width: 70%;
+	float: left;
+	padding-left: 3px;
+}
+
+.doctor-profile-details-left img {
+	width: 100%;
+	height: 70px;
+	border: 3px solid #0A51A1;
+}
+
+.doctor-profile-details-right h5 {
+	margin: 0;
+}
+
+.doctor-profile-details-right p {
+	margin: 0;
+	font-size: 14px;
+}
+
+/* Sidebar CSS */
+.sidebar-area {
+	width: 200px;
+	height: 100%;
+	background: #025ec5;
+	position: absolute;
+	left: 0;
+	z-index: 10;
+}
+
+.sidebar-area ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.sidebar-area ul li {
+	border-bottom: 1px solid #3069a8;
+}
+
+.sidebar-area ul li {
+	border-top: 1px solid #02458f;
+}
+
+.sidebar-area ul li:first-child {
+	border-top: none;;
+}
+
+.sidebar-area ul li:last-child {
+	border-bottom: none;;
+}
+
+.sidebar-area ul li a {
+	width: 100%;
+	display: block;
+	padding: 10px;
+	color: #fff;
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	transition: all 0.2s;
+	text-transform: uppercase;
+	font-size: 18px;
+	font-weight: 500;
+}
+
+.sidebar-area ul li a:hover {
+	background: #014ea4;
+	color: #fff;
+}
+
+.fixed {
+    position: fixed;
+	top: 0;
+}
+
+/* About Us CSS */
+.about-us-area {
+	margin: 50px 0;
+}
+
+.about-us-area h2 {
+	color: #fff;
+	background: url(img/about-heading-bd.jpg);
+	background-size: 100% 100%;
+	padding: 25px 0;
+	text-shadow: 0px 0px 1px #000;
+}
+
+/* Health Tips Area CSS */
+.health-tips-area {
+	margin: 70px 0;
+}
+
+.health-tips-area h2 {
+	color: #fff;
+	background: url(img/health-tips-heading-bg.jpg);
+	background-size: 100% 100%;
+	padding: 25px 0;
+	text-shadow: 0px 0px 1px #000;
+}
+
+.blog-div {
+	margin: 50px auto;
+}
+
+.health-tips-area time {
+	margin-right: 10%;
+	padding-top: 42px;
+	float: left;
+	text-align: center;
+	display: block;
+	width: 30%;
+}
+
+.health-tips-area time .count {
+	background-color: #018AFE;
+	color: #ffffff;
+	width: 68px;
+	height: 68px;
+	display: block;
+	text-align: center;
+	border-radius: 500px;
+	margin: auto;
+	margin-bottom: 10px;
+	padding: 16px;
+    font-size: 25px;
+}
+
+
+.health-tips-area time strong {
+	margin-bottom: 3px;
+	font-weight: normal;
+	display: block;
+	font-size: 24px;
+}
+
+img.blog-img {
+	width: 60%;
+	max-width: 220px;
+	border-radius: 20%;
+	max-height: 200px;
+}
+
+.health-tips-area .blog-content h3 {
+	color: #217DCA;
+}
+
+/* Doctor News Area CSS */
+.doctor-news-area {
+	margin: 70px 0;
+}
+
+.doctor-news-area h2 {
+	color: #fff;
+	background: url(img/doctor-news-heading-bg.jpg);
+	background-size: 100% 100%;
+	padding: 25px 0;
+	text-shadow: 0px 0px 1px #000;
+}
+
+.blog-div {
+	margin: 50px auto;
+}
+
+.doctor-news-area time {
+	margin-right: 10%;
+	padding-top: 42px;
+	float: left;
+	text-align: center;
+	display: block;
+	width: 30%;
+}
+
+.doctor-news-area time .count {
+	background-color: #15d831;
+	color: #ffffff;
+	width: 68px;
+	height: 68px;
+	display: block;
+	text-align: center;
+	border-radius: 500px;
+	margin: auto;
+	margin-bottom: 10px;
+	padding: 16px;
+    font-size: 25px;
+}
+
+
+.doctor-news-area time strong {
+	margin-bottom: 3px;
+	font-weight: normal;
+	display: block;
+	font-size: 24px;
+}
+
+img.blog-img {
+	width: 60%;
+	max-width: 220px;
+	border-radius: 20%;
+	max-height: 200px;
+}
+
+.doctor-news-area .blog-content h3 {
+	color: #05C520;
+}
+
+/* FAQ Area CSS */
+.faq-area {
+	margin: 70px 0;
+}
+
+.faq-area h2 {
+	color: #fff;
+	background: url(img/faq-heading-bg.jpg);
+	background-size: 100% 100%;
+	padding: 25px 0;
+	text-shadow: 0px 0px 1px #000;
+}
+
+ul.faq {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+.faq li { 
+	padding: 20px; 
+}
+
+.faq li.q {
+  background: #dddcdc;
+  font-weight: bold;
+  font-size: 120%;
+  border-bottom: 1px #999 solid;
+  cursor: pointer;
+  color: #333;
+}
+
+.faq li.a {
+  background: #fdc96a;
+  display: none;
+  color:#333;
+}
+
+.rotate {
+  -moz-transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+/* Contact Area CSS */
+.contact-area {
+	margin: 70px 0;
+}
+
+.contact-area h2 {
+	color: #fff;
+	background: url(img/contact-heading-bg.jpg);
+	background-size: 100% 100%;
+	padding: 25px 0;
+	text-shadow: 0px 0px 1px #000;
+}
+
+.contact-area h3 {
+	color: #d00728;
+	margin-top: 25px;
+}
+
+.contact-top {
+	overflow: hidden;
+    background: #dddcdc;
+    margin: 0 15px;
+    padding: 15px;
+}
+
